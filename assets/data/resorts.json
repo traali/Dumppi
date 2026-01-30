@@ -1,0 +1,127 @@
+[
+  {
+    "id": "chamonix",
+    "name": "Chamonix Mont-Blanc",
+    "country": "France",
+    "lat": 45.9237,
+    "lng": 6.8694,
+    "base_alt": 1035,
+    "top_alt": 3842,
+    "downhill_runs_km": 119.0,
+    "lifts": {
+      "gondolas": 6,
+      "chairlifts": 15,
+      "surface_lifts": 21
+    },
+    "slope_aspect_data": [
+      0.35,
+      0.15,
+      0.05,
+      0.05,
+      0.10,
+      0.10,
+      0.10,
+      0.10
+    ]
+  },
+  {
+    "id": "zermatt",
+    "name": "Zermatt-Matterhorn",
+    "country": "Switzerland",
+    "lat": 46.0207,
+    "lng": 7.7491,
+    "base_alt": 1620,
+    "top_alt": 3883,
+    "downhill_runs_km": 360.0,
+    "lifts": {
+      "gondolas": 15,
+      "chairlifts": 22,
+      "surface_lifts": 17
+    },
+    "slope_aspect_data": [
+      0.45,
+      0.20,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.10
+    ]
+  },
+  {
+    "id": "val_cenis",
+    "name": "Val Cenis",
+    "country": "France",
+    "lat": 45.2858,
+    "lng": 6.8875,
+    "base_alt": 1300,
+    "top_alt": 2800,
+    "downhill_runs_km": 125.0,
+    "lifts": {
+      "gondolas": 2,
+      "chairlifts": 13,
+      "surface_lifts": 13
+    },
+    "slope_aspect_data": [
+      0.50,
+      0.10,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.05,
+      0.15
+    ]
+  },
+  {
+    "id": "val_thorens",
+    "name": "Val Thorens",
+    "country": "France",
+    "lat": 45.2980,
+    "lng": 6.5800,
+    "base_alt": 2300,
+    "top_alt": 3230,
+    "downhill_runs_km": 150.0,
+    "lifts": {
+      "gondolas": 4,
+      "chairlifts": 15,
+      "surface_lifts": 12
+    },
+    "slope_aspect_data": [
+      0.40,
+      0.15,
+      0.05,
+      0.05,
+      0.10,
+      0.10,
+      0.10,
+      0.05
+    ]
+  },
+  {
+    "id": "verbier",
+    "name": "Verbier",
+    "country": "Switzerland",
+    "lat": 46.0968,
+    "lng": 7.2285,
+    "base_alt": 1500,
+    "top_alt": 3330,
+    "downhill_runs_km": 410.0,
+    "lifts": {
+      "gondolas": 12,
+      "chairlifts": 18,
+      "surface_lifts": 35
+    },
+    "slope_aspect_data": [
+      0.30,
+      0.15,
+      0.10,
+      0.05,
+      0.10,
+      0.10,
+      0.10,
+      0.10
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+# SPA Fallback: Send all clean URLs to index.html so Flutter can handle routing
+/*  /index.html  200
