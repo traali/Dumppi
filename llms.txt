@@ -1,0 +1,25 @@
+# Dumppi
+
+Dumppi is a cross-platform freeride ski forecast app. It visualizes 7-day snow accumulation as heatmaps and overlays wind vectors on topographic maps to help skiers find the best powder.
+
+## Architecture
+- Framework: Flutter (iOS, Android, Web)
+- Weather API: Open-Meteo (free, high-resolution)
+- Maps: flutter_map with OpenSnowMap tiles
+- State: Provider + ChangeNotifier
+
+## File Structure
+- lib/features/       - Feature modules (forecast, favorites, map)
+- lib/core/           - Shared utilities, API clients
+- lib/data/           - Data sources, repositories
+- lib/presentation/   - UI widgets and screens
+
+## Key Decisions
+- Dynamic viewport-based grid fetching (fetch weather for visible map area)
+- Local caching for offline access at resorts
+- Vector wind arrows for lee-side loading visualization
+
+## How to Extend
+1. Add new data sources in lib/data/sources/
+2. Create new map overlays in lib/features/map/layers/
+3. Add resort database entries in assets/resorts.json
